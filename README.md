@@ -1,6 +1,15 @@
 # GraphQL
 
-
+{
+  books {
+    name,
+    genre,
+    author {
+      name,
+      age
+    }
+  }
+}
 
 mutation {
   addAuthor(name: "Stephen King", age: 57) {
