@@ -1,5 +1,13 @@
 # GraphQL
 
+Download Schema
+
+apollo schema:download --endpoint http://localhost:4000/graphql schema.json
+
+Queries
+
+```
+
 {
   books {
     name,
@@ -24,3 +32,5 @@ mutation {
     genre
   }
 }
+
+```
